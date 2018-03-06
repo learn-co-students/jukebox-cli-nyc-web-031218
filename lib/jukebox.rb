@@ -42,7 +42,6 @@ def exit_jukebox
 end
 
 def run(songs)
-  help
   puts "Please enter a command:"
   command = gets.chomp
   if command == "list"
